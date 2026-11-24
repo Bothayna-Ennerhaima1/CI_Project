@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/Bothayna-Ennerhaima1/CI_Project.git'
-
+            }
         }
         stage('Vérification Python') {
             steps {
